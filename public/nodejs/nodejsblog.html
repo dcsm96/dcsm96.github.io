@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Mirrored from jedireza.github.io/aqua/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Oct 2016 17:11:42 GMT -->
+    <!-- Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <title>NodeJS Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="public/build.css">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 class="text-center">NodeJS Blog</h1>
+            <h2 class="text-center">A Simple Blog system</h2>
+            <p class="text-center"><a href="https://dcsm-nodejsblog.herokuapp.com/" class="btn btn-primary btn-lg">Live Demo on Heroku</a></p>
+            <ul class="project-links">
+                <li><a href="https://github.com/dcsm96/nodejsblog"><i class="fa fa-github"></i> View GitHub Project</a></li>
+            </ul>
+            <div class="gh-btns">
+                <iframe src="http://ghbtns.com/github-btn.html?user=dcsm96&amp;repo=aqua&amp;type=follow&amp;count=false&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="173px" height="30px">
+                </iframe>
+            </div>
+        </div>
+        <div class="container marketing">
+            <h2 class="text-center">Core features</h2>
+            <p class="lead">A few helpful utilities</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3><i class="fa fa-hand-o-right"></i>MongoDB</h3>
+                    <p>The <code>mongodb</code> &amp; <code>monk</code> dependencies let us to connect easily with a mongo database hosted in mongolab.
+                    </p>
+                </div>
+
+                <div class="col-sm-4">
+                    <h3><i class="fa fa-sign-in"></i> Validator</h3>
+                    <p>I've included a dependency to validate the forms, by using <code>express-validator</code> and confirm that some important fields in the form aren't empty, or even if is an email field.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3><i class="fa fa-paper-plane"></i>Flash Messages</h3>
+                    <p>When supplied valid credentials, and incorrect, the <code>connect-flash</code> dependencie help us with a few lines of code to display alerts, Depending on the case, it can be a successful or warning alert.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <h3><i class="fa fa-user"></i> Multer</h3>
+                    <p><code>Multer</code> let us handle multipart/form-data, in this case for upload and encrypt the images of the posts.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3><i class="fa fa-users"></i> Moment</h3>
+                    <p>With <code>Moment</code> we can format the date's post storaged in the Mongo database and finally display it.
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <hr>
+            <h2 class="text-center">The front-end pages</h2>
+            <p class="lead">Home, Add Post and Add Category</p>
+            <div class="row">
+                <div class="col-md-4"><a href="#screenModal" data-toggle="modal" class="thumbnail"><img src="public/images/nodeblog/frontend1.png" class="img-responsive"></a></div>
+                <div class="col-md-4"><a href="#screenModal" data-toggle="modal" class="thumbnail"><img src="public/images/nodeblog/frontend2.png" class="img-responsive"></a></div>
+                <div class="col-md-4"><a href="#screenModal" data-toggle="modal" class="thumbnail"><img src="public/images/nodeblog/frontend3.png" class="img-responsive"></a></div>
+            </div>
+            <hr>
+            <h2 class="text-center">Post screens</h2>
+            <p class="lead">Blog post and commentary section</p>
+            <div class="row">
+                <div class="col-md-6"><a href="#screenModal" data-toggle="modal" class="thumbnail"><img src="public/images/nodeblog/frontend5.png" class="img-responsive"></a></div>
+                <div class="col-md-6"><a href="#screenModal" data-toggle="modal" class="thumbnail"><img src="public/images/nodeblog/frontend4.png" class="img-responsive"></a></div>
+            </div>
+        </div>
+        <footer>
+            <a><img src="http://devicon.fr/devicon.git/icons/github/github-original.svg" height="100"></a>  
+            <a href="https://github.com/dcsm96">Github:</a> David Camilo Sanchez Mora           
+        </footer>
+        <div id="screenModal" tabindex="-1" role="dialog" aria-labelledby="screenModalLabel" aria-hidden="true" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content"><img src="#" data-dismiss="modal" class="img-responsive"></div>
+            </div>
+        </div>
+        <script src="public/build.js"></script>
+    </body>
+    <!-- Mirrored from jedireza.github.io/aqua/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Oct 2016 17:11:47 GMT -->
+</html>

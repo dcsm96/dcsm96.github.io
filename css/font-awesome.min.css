@@ -16,6 +16,12 @@ a [class^="icon-"],a [class*=" icon-"]{display:inline;}
 .icon-5x{font-size:5em;}.icon-5x.icon-border{border-width:5px;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px;}
 .pull-right{float:right;}
 .pull-left{float:left;}
+
+[class^="divicon-"].pull-left,[class*=" divicon-"].pull-left{margin-right:.3em;}
+[class^="divicon-"].pull-right,[class*=" divicon-"].pull-right{margin-left:.3em;}
+[class^="divicon-"],[class*=" divicon-"]{display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0% 0%;background-repeat:repeat;margin-top:0;}
+
+
 [class^="icon-"].pull-left,[class*=" icon-"].pull-left{margin-right:.3em;}
 [class^="icon-"].pull-right,[class*=" icon-"].pull-right{margin-left:.3em;}
 [class^="icon-"],[class*=" icon-"]{display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0% 0%;background-repeat:repeat;margin-top:0;}

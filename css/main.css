@@ -1,4 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+[class^="devicon-"], [class*=" devicon-"] {
+    display: inline-block;
+    width: 100%;
+}
+
+td i {
+    text-align:center;
+}
+
 body {
   background: #e5e5e5;
   color: #999;
@@ -115,8 +125,8 @@ a:focus {
 #main-slider .next {
   right: 10px;
 }
-#main-slider h1 {
-  font-size: 68px;
+#main-slider h3 {
+  font-size: 50px;
   text-shadow: 0 3px rgba(0, 0, 0, 0.1);
   color: #fff;
 }
@@ -476,7 +486,6 @@ a:focus {
   margin-left: 20px;
   width: 200px;
   height: 78px;
-  background: url(../images/logo.png) no-repeat 0 50%;
 }
 .navbar-default .navbar-nav > li {
   margin-left: 1px;
@@ -503,6 +512,8 @@ a:focus {
   background-color: #52b6ec;
   color: #fff;
 }
+
+
 .icon-lg {
   font-size: 48px;
   height: 108px;
